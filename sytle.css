@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e0f7fa, #e8f5e9);
+    text-align: center;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(to right, #0077b6, #00b894);
+    color: white;
+    padding: 40px 0;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+/* NAVIGATION */
+nav {
+    background: #0096c7;
+    padding: 12px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00ffae;
+}
+
+/* SECTIONS */
+section {
+    padding: 40px 20px;
+}
+
+h2 {
+    color: #0077b6;
+}
+
+/* SKILLS */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: white;
+    margin: 10px auto;
+    padding: 10px;
+    width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* PROJECTS */
+.project {
+    background: white;
+    margin: 20px auto;
+    padding: 15px;
+    width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
+
+/* FOOTER */
+footer {
+    background: #0077b6;
+    color: white;
+    padding: 15px;
+}
