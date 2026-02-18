@@ -17,10 +17,11 @@ header {
     align-items: center;
 }
 .profile-pic {
-    width: 150px;
-    height: 150px;
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
     object-fit: cover;
+    object-position: top center;  /* face top side irundha correct ah varum */
     border: 4px solid white;
     margin-bottom: 15px;
 }
@@ -84,6 +85,7 @@ footer {
     padding: 15px;
 
 }
+
 
 
 
