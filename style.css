@@ -11,7 +11,11 @@ header {
     color: white;
     padding: 40px 0;
 }
-
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .profile-pic {
     width: 150px;
     height: 150px;
@@ -80,5 +84,6 @@ footer {
     padding: 15px;
 
 }
+
 
 
