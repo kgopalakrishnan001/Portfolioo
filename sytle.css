@@ -1,4 +1,8 @@
 body {
+  background-color: yellow;
+}
+
+body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: linear-gradient(to right, #e0f7fa, #e8f5e9);
@@ -78,4 +82,5 @@ footer {
     background: #0077b6;
     color: white;
     padding: 15px;
+
 }
